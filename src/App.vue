@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <navigation></navigation>
     <h1>kekekekek</h1>
     <router-view></router-view>
   </div>
@@ -8,10 +9,12 @@
 <script>
 import Home from './views/Home.vue'
 import MusicShare from './views/MusicShare.vue'
+import Navigation from './components/Navigation.vue'
 
 export default {
   name: 'App',
   components: {
+    Navigation,
     Home,
     MusicShare
   }
@@ -52,7 +55,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.body {
+  
 }
 
 </style>
