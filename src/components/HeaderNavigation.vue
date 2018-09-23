@@ -32,6 +32,7 @@ export default {
   flex-direction: row;
   background-color: rgba(255, 255, 255, 0.07);
   
+  
 }
 
 .header-logo {
