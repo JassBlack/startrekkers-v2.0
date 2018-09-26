@@ -1,8 +1,7 @@
 <template>
   <div id="app">
     <headerNavigation></headerNavigation>
-    <h1>Main companent</h1>
-    <main>
+    <main class="container">
       <router-view></router-view>
     </main>
   </div>
@@ -70,6 +69,10 @@ export default {
   background: url("./assets/images/background.jpg") center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.container {
+  padding: 0 8%;
 }
 
 </style>
